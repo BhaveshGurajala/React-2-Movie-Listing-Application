@@ -80,7 +80,7 @@ const MovieList = () => {
             name="order"
             id=""
             onChange={handleSort}
-            value="sort.order"
+            value={sort.order}
             className="movie_sorting"
           >
             <option value="asc">Asc</option>
